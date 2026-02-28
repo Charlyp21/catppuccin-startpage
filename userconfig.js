@@ -30,6 +30,7 @@ const default_configuration = {
       p: ["https://www.perplexity.ai/search/?q=", "PerplexityAI"],
       d: ["https://duckduckgo.com/?q=", "DuckDuckGo"],
       g: ["https://google.com/search?q=", "Google"],
+      q: ["https://chat.qwen.ai/", "Qwen"],
     },
     default: "g",
   },
@@ -39,7 +40,7 @@ const default_configuration = {
   disabled: [],
   localIcons: true,
   localFonts: true,
-  fastlink: "https://www.perplexity.ai",
+  fastlink: "https://chat.qwen.ai/",
   openLastVisitedTab: true,
   tabs: [
     {
@@ -90,21 +91,27 @@ const default_configuration = {
               icon: "brand-google-drive",
               icon_color: palette.blue,
             },
+            {
+              name: "Notebook LM",
+              url: "https://notebooklm.google.com/",
+              icon: "notebook",
+              icon_color: palette.mauve,
+            }
           ],
         },
         {
           name: "media",
           links: [
             {
-              name: "pinterest",
-              url: "https://www.pinterest.com",
-              icon: "brand-pinterest",
+              name: "BIDI UNAM",
+              url: "https://www.bidi.unam.mx/",
+              icon: "book-2",
               icon_color: palette.green,
             },
             {
-              name: "",
-              url: "https://mil.in.ua",
-              icon: "badge-filled",
+              name: "Omnitools",
+              url: "http://localhost:8080/",
+              icon: "folder",
               icon_color: palette.peach,
             },
             {
