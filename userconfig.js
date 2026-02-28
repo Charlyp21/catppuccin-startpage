@@ -3,7 +3,7 @@
 // Define preferred palette for light and dark mode
 // Available themes: latte, frappe, mocha, macchiato
 const preferredLightTheme = latte;
-const preferredDarkTheme = mocha;
+const preferredDarkTheme = frappe;
 
 let palette = initThemeSystem(preferredLightTheme, preferredDarkTheme);
 
@@ -19,7 +19,7 @@ const default_configuration = {
   },
   additionalClocks: [
     {
-      label: "UA",
+      label: "Japan",
       timezone: "Japan",
       format: "h:i",
       icon_color: palette.peach,
@@ -31,7 +31,7 @@ const default_configuration = {
       d: ["https://duckduckgo.com/?q=", "DuckDuckGo"],
       g: ["https://google.com/search?q=", "Google"],
     },
-    default: "d",
+    default: "g",
   },
   keybindings: {
     "s": "search-bar",
@@ -43,8 +43,8 @@ const default_configuration = {
   openLastVisitedTab: true,
   tabs: [
     {
-      name: "Charly",
-      background_url: "src/img/banners/banner_09.gif",
+      name: "Myself",
+      background_url: "src/img/banners/banner_15.gif",
       categories: [
         {
           name: "bookmarks",
@@ -73,15 +73,15 @@ const default_configuration = {
               icon_color: palette.green,
             },
             {
-              name: "calendar",
-              url: "https://calendar.google.com",
-              icon: "calendar-filled",
+              name: "Protonmail",
+              url: "https://proton.me",
+              icon: "mail",
               icon_color: palette.peach,
             },
             {
-              name: "sheets",
-              url: "https://docs.google.com/spreadsheets",
-              icon: "table",
+              name: "Notion",
+              url: "https://www.notion.so/NEURO-SYSTEM_V1-2f8e992875fd808b8277c6fc8955e529",
+              icon: "brand-notion",
               icon_color: palette.red,
             },
             {
@@ -96,13 +96,13 @@ const default_configuration = {
           name: "media",
           links: [
             {
-              name: "уп",
-              url: "https://www.pravda.com.ua",
-              icon: "news",
+              name: "pinterest",
+              url: "https://www.pinterest.com",
+              icon: "brand-pinterest",
               icon_color: palette.green,
             },
             {
-              name: "mil.in.ua",
+              name: "",
               url: "https://mil.in.ua",
               icon: "badge-filled",
               icon_color: palette.peach,
@@ -131,7 +131,7 @@ const default_configuration = {
     },
     {
       name: "dev",
-      background_url: "src/img/banners/banner_07.gif",
+      background_url: "src/img/banners/banner_16.gif",
       categories: [
         {
           name: "development",
