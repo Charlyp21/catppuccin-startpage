@@ -115,9 +115,9 @@ const default_configuration = {
               icon_color: palette.peach,
             },
             {
-              name: "куток",
-              url: "https://kutok.io",
-              icon: "border-radius",
+              name: "Neuromatch",
+              url: "https://compneuro.neuromatch.io/tutorials/intro.html",
+              icon: "brain",
               icon_color: palette.red,
             },
             {
