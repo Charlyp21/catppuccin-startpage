@@ -10,7 +10,7 @@ let palette = initThemeSystem(preferredLightTheme, preferredDarkTheme);
 const default_configuration = {
   overrideStorage: true,
   temperature: {
-    location: "CDMX",
+    location: "Mexico City",
     scale: "C",
   },
   clock: {
@@ -43,7 +43,7 @@ const default_configuration = {
   tabs: [
     {
       name: "myself",
-      background_url: "src/img/banners/banner_09.gif",
+      background_url:"src/img/banners/banner_15.gif",
       categories: [
         {
           name: "bookmarks",
@@ -72,15 +72,15 @@ const default_configuration = {
               icon_color: palette.green,
             },
             {
-              name: "calendar",
-              url: "https://calendar.google.com",
-              icon: "calendar-filled",
+              name: "ProtonMail",
+              url: "https://mail.proton.me/u/1/",
+              icon: "mail",
               icon_color: palette.peach,
             },
             {
-              name: "sheets",
-              url: "https://docs.google.com/spreadsheets",
-              icon: "table",
+              name: "calendar",
+              url: "https://calendar.google.com",
+              icon: "calendar-filled",
               icon_color: palette.red,
             },
             {
@@ -89,6 +89,12 @@ const default_configuration = {
               icon: "brand-google-drive",
               icon_color: palette.blue,
             },
+            {
+              name: "Notion",
+              url: "https://www.notion.so/NEURO-SYSTEM_V1-2f8e992875fd808b8277c6fc8955e529",
+              icon: "brand-notion",
+              icon_color: palette.mauve,
+            }
           ],
         },
         {
@@ -130,7 +136,7 @@ const default_configuration = {
     },
     {
       name: "dev",
-      background_url: "src/img/banners/banner_07.gif",
+      background_url: "src/img/banners/banner_17.gif",
       categories: [
         {
           name: "development",
@@ -281,29 +287,35 @@ const default_configuration = {
           name: "video",
           links: [
             {
-              name: "anilist",
-              url: "https://anilist.co/home",
+              name: "Crunchyroll",
+              url: "https://www.crunchyroll.com/es/discover",
               icon: "brand-funimation",
               icon_color: palette.green,
             },
             {
-              name: "youtube",
+              name: "Youtube",
               url: "https://www.youtube.com",
               icon: "brand-youtube",
               icon_color: palette.peach,
             },
             {
-              name: "patreon",
-              url: "https://www.patreon.com",
-              icon: "brand-patreon",
-              icon_color: palette.red,
+              name: "AppleTV",
+              url: "https://tv.apple.com/mx/",
+              icon: "brand-apple",
+              icon_color: palette.teal,
             },
             {
-              name: "kyivstar",
-              url: "https://tv.kyivstar.ua",
-              icon: "star-filled",
+              name: "Disney+",
+              url: "https://www.disneyplus.com/es-419/home",
+              icon: "brand-disney",
               icon_color: palette.blue,
             },
+            {
+              name: "PrimeVideo",
+              url: "https://www.primevideo.com/",
+              icon: "brand-amazon",
+              icon_color: palette.mauve,
+            }
           ],
         },
       ],
