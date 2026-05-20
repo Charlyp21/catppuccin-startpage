@@ -297,6 +297,19 @@ class Search extends Component {
   }
 
   /**
+   * Open a URL in a new window or tab
+   * @param {string} url - The URL to open
+   * @returns {void}
+   */
+  openInNewWindow(url) {
+    const openedWindow = window.open(url, '_blank', 'noopener,noreferrer');
+
+    if (openedWindow) {
+      openedWindow.opener = null;
+    }
+  }
+
+  /**
    * Search local history for matching entries
    * @param {string} query - The search query
    * @returns {Array} Array of matching history entries
@@ -449,7 +462,7 @@ class Search extends Component {
     if (index >= 0 && index < this.suggestions.length) {
       const suggestion = this.suggestions[index];
       this.saveToLocalHistory(suggestion.url, suggestion.title);
-      window.location = suggestion.url;
+      this.openInNewWindow(suggestion.url);
     }
   }
 
@@ -568,7 +581,7 @@ class Search extends Component {
         // Navigate directly to the URL
         const formattedUrl = this.formatUrl(fullInput);
         this.saveToLocalHistory(formattedUrl);
-        window.location = formattedUrl;
+        this.openInNewWindow(formattedUrl);
         return;
       }
 
@@ -579,7 +592,7 @@ class Search extends Component {
       }
 
       // Navigate to search results
-      window.location = engine + encodeURI(args.join(' '));
+      this.openInNewWindow(engine + encodeURI(args.join(' ')));
       return;
     }
 
