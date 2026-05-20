@@ -5,7 +5,7 @@
 const preferredLightTheme = latte;
 const preferredDarkTheme = mocha;
 
-let palette = initThemeSystem(preferredDarkTheme);
+let palette = initThemeSystem(preferredLightTheme, preferredDarkTheme);
 
 const default_configuration = {
   overrideStorage: true,
