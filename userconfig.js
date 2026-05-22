@@ -103,7 +103,7 @@ const default_configuration = {
             {
               name: "Gemini",
               url: "https://gemini.google.com/app?hl=es_419",
-              icon: "sparkle",
+              icon: "sparkles",
               icon_color: palette.green,
             },
             {
@@ -115,7 +115,7 @@ const default_configuration = {
             {
               name: "Qwen",
               url: "https://chat.qwen.ai/",
-              icon: "brand-alibaba",
+              icon: "brand-alipay",
               icon_color: palette.red,
             },
           ],
