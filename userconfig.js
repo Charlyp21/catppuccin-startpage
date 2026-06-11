@@ -188,9 +188,9 @@ const default_configuration = {
           name: "resources",
           links: [
             {
-              name: "dou",
-              url: "https://dou.ua",
-              icon: "brand-prisma",
+              name: "Cisco Netacad",
+              url: "https://www.netacad.com/",
+              icon: "world",
               icon_color: palette.green,
             },
             {
@@ -200,9 +200,9 @@ const default_configuration = {
               icon_color: palette.peach,
             },
             {
-              name: "uber engineering",
-              url: "https://www.uber.com/en-GB/blog/london/engineering",
-              icon: "brand-uber",
+              name: "Freecodecamp",
+              url: "https://www.freecodecamp.org",
+              icon: "code",
               icon_color: palette.red,
             },
             {
@@ -239,6 +239,12 @@ const default_configuration = {
               url: "https://www.reddit.com/r/unixporn",
               icon: "brand-reddit",
               icon_color: palette.red,
+            },
+            {
+              name: "X (twitter)",
+              url: "https://x.com/home",
+              icon: "brand-x",
+              icon_color: palette.blue,
             },
           ],
         },
