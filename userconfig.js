@@ -91,7 +91,7 @@ const default_configuration = {
             },
             {
               name: "Notion",
-              url: "https://www.notion.so/NEURO-SYSTEM_V1-2f8e992875fd808b8277c6fc8955e529",
+              url: "https://app.notion.com/p/Neuropilines-3b8e992875fd8064839bd9ad7df0d369",
               icon: "brand-notion",
               icon_color: palette.mauve,
             }
@@ -291,12 +291,6 @@ const default_configuration = {
               url: "https://www.youtube.com",
               icon: "brand-youtube",
               icon_color: palette.peach,
-            },
-            {
-              name: "AppleTV",
-              url: "https://tv.apple.com/mx/",
-              icon: "brand-apple",
-              icon_color: palette.teal,
             },
             {
               name: "Disney+",
