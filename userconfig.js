@@ -94,7 +94,7 @@ const default_configuration = {
               url: "https://app.notion.com/p/Neuropilines-3b8e992875fd8064839bd9ad7df0d369",
               icon: "brand-notion",
               icon_color: palette.mauve,
-            }
+            },
           ],
         },
         {
@@ -117,6 +117,12 @@ const default_configuration = {
               url: "https://chat.qwen.ai/",
               icon: "brand-alipay",
               icon_color: palette.red,
+            },
+            {
+              name: "Deepseek",
+              url: "https://chat.deepseek.com/",
+              icon: "message-chatbot",
+              icon_color: palette.blue,
             },
           ],
         },
@@ -205,12 +211,6 @@ const default_configuration = {
               icon: "code",
               icon_color: palette.red,
             },
-            {
-              name: "netflix tech blog",
-              url: "https://netflixtechblog.com",
-              icon: "brand-netflix",
-              icon_color: palette.blue,
-            },
           ],
         },
       ],
@@ -252,9 +252,9 @@ const default_configuration = {
           name: "gaming",
           links: [
             {
-              name: "infiniteBacklog",
-              url: "https://infinitebacklog.net",
-              icon: "device-gamepad",
+              name: "Amazon Luna",
+              url: "https://luna.amazon.com/claims/home",
+              icon: "brand-amazon",
               icon_color: palette.green,
             },
             {
@@ -268,12 +268,6 @@ const default_configuration = {
               url: "https://store.epicgames.com",
               icon: "brand-fortnite",
               icon_color: palette.red,
-            },
-            {
-              name: "nintendo",
-              url: "https://store.nintendo.co.uk",
-              icon: "device-nintendo",
-              icon_color: palette.blue,
             },
           ],
         },
@@ -303,7 +297,13 @@ const default_configuration = {
               url: "https://www.primevideo.com/",
               icon: "brand-amazon",
               icon_color: palette.mauve,
-            }
+            },
+            {
+              name: "Netflix",
+              url: "https://www.netflix.com/browse",
+              icon: "brand-netflix",
+              icon_color: palette.red,
+            },
           ],
         },
       ],
